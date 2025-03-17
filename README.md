@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/108552f4-e38e-4e7d-ba14-b35e99a2da71)# fake_store
+ fake_store
 Build a two-page shopping application using the Fake Store API (https://fakestoreapi.com/docs). The app should include a Product Listing page and a Cart page.
 Below is a tailored `README.md` file specifically for your deployed shopping app at `https://illustrious-faun-638a55.netlify.app/`. This version assumes the app is functional as per our previous code (product listing and cart pages) and is designed to impress for your internship application. It includes deployment details, a live demo link, and a professional tone.
 
@@ -66,15 +66,32 @@ A modern, front-end e-commerce application built with React.js, TypeScript, Tail
    - Opens at `http://localhost:3000` in your browser.
 
 ### Project Structure
-```
-src/
-├── components/       # Reusable UI components (Navbar, Filters, ProductCard)
-├── hooks/           # Custom hooks (useCart, useProducts)
-├── pages/           # Main pages (ProductListing, Cart)
-├── types/           # TypeScript type definitions
-├── utils/           # Helper functions (formatCurrency)
-├── App.tsx          # App entry with routing
-└── index.css        # Tailwind CSS setup
+fake_store/
+├── src/
+│   ├── components/
+│   │   ├── Filters.tsx
+│   │   ├── Navbar.tsx
+│   │   └── ProductCard.tsx
+│   ├── hooks/
+│   │   ├── useCart.ts
+│   │   └── useProducts.ts
+│   ├── pages/
+│   │   ├── Cart.tsx
+│   │   └── ProductListing.tsx
+│   ├── types/
+│   │   └── index.ts
+│   ├── utils/
+│   │   └── formatCurrency.ts
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── public/
+│   ├── index.html
+│   └── favicon.ico  (optional)
+├── netlify.toml
+├── tailwind.config.js
+├── package.json
+└── README.md
 ```
 
 ## Deployment
@@ -132,3 +149,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Present it during your internship interview with confidence: "Here’s my deployed shopping app, live on Netlify, showcasing my front-end skills with React and TypeScript."
 
 Let me know if you need help capturing screenshots, fixing deployment issues, or tweaking this further!
+![image](https://github.com/user-attachments/assets/108552f4-e38e-4e7d-ba14-b35e99a2da71)#
